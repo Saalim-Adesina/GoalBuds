@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+    background-color: #F9F3E4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Abril Fatface";
+    padding: 0 20px;
+}
+
+header ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+header a {
+    color: #66BAF2;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Abril Fatface";
+    margin-left: 2em;
+    font-size: 20px;
+}
+
+header a:hover {
+    color: black;
+}
+
+#home {
+    display: flex;
+}
+
+#home_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#home_content h1 {
+    font-size: 6rem;
+    color: rgb(41, 41, 41);
+}
+#home_content h3 {
+    font-size: 1.5rem;
+    color: rgb(41, 41, 41);
+}
+#home_content button {
+    background-color: #66BAF2;
+    padding: 5px 20px;
+    font-family: "Abril Fatface";
+    font-size: 1.5em;
+}
+
+.landing_form_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin: 0;
+}
+
+.landing_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    max-width: 70%;
+    text-align: center
+}
+.landing_form form {
+    display: flex;
+    flex-direction: column;
+}
+.landing_form form p {
+    font-family: "Abril Fatface";
+    color: gray;
+    font-size: 20px;
+}
+.landing_form form label[id='question'] {
+    font-family: "Abril Fatface";
+    font-size: 4em;
+    margin-bottom: 25px;
+}
+.landing_form button {
+    background-color: #66BAF2;
+    padding: 5px 20px;
+    font-family: "Abril Fatface";
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+
+.button {
+border: none;
+padding: 0.625em;
+border-radius: 0.5em;
+cursor: pointer;
+}
+
+.button:hover {
+filter: brightness(0.9);
+}
+
+.button:active {
+transform: translateY(2px);
+}
+
+.person-selector {
+display: flex;
+justify-content: center;
+gap: 1em;
+margin: 3em auto 1em;
+max-width: 40em;
+}
+
+.person-selector-button {
+width: 100%;
+background-color: #15202b;
+color: #fff;
+font-size: 1.1em;
+}
+
+.active-person {
+background: #08529d;
+box-shadow: 0 0 0.5em 0.1em #c3c3c333;
+}
+
+.chat-container {
+background: #15202b;
+font-family: 'Roboto', sans-serif;
+border-radius: 0.5em;
+padding: 0.5em 1.25em;
+margin: auto;
+max-width: 37.5em;
+height: 37.5em;
+box-shadow: 0 0 1.25em 0.5em #c3c3c333;
+}
+
+.chat-header {
+margin-bottom: 1em;
+color: #fff;
+}
+
+.chat-header h2 {
+font-size: 1.25em;
+font-weight: bold;
+}
+
+.chat-messages {
+height: 23em;
+overflow-y: scroll;
+}
+
+.chat-messages::-webkit-scrollbar {
+display: none;
+}
+
+.message {
+padding: 0.625em;
+border-radius: 1em;
+margin-bottom: 0.625em;
+display: flex;
+flex-direction: column;
+color: #fff;
+}
+
+.message-sender {
+font-weight: bold;
+margin-bottom: 0.31em;
+}
+
+.message-text {
+font-size: 1em;
+margin-bottom: 0.31em;
+word-wrap: break-word;
+}
+
+.message-timestamp {
+font-size: 0.75em;
+text-align: right;
+}
+
+.blue-bg {
+background-color: #1c9bef;
+}
+
+.gray-bg {
+background-color: #3d5365;
+}
+
+.chat-input-form {
+display: flex;
+align-items: center;
+margin-top: 2em;
+gap: 0.625em;
+}
+
+.chat-input {
+padding: 0.625em;
+border: none;
+border-radius: 0.5em;
+background-color: #f5f5f5;
+color: #333;
+font-size: 1em;
+flex-grow: 1;
+}
+
+.send-button {
+background-color: #1c9bef;
+color: #fff;
+font-size: 1em;
+font-weight: bold;
+}
+
+.clear-chat-button {
+display: block;
+margin: 2.5em auto;
+}
+
+#buddy, #goal {
+    color: white;
+    padding: 0;
+    margin-top: 0.25em;
+}
+

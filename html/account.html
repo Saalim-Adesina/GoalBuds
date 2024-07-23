@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="/Javascript/forms.js"></script>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
     <header>
@@ -18,5 +20,58 @@
             </ul>
         </nav>
     </header>
+
+    <main class="landing_form">
+        <form id="account_form">
+            <label for="username">Choose a username</label>
+            <input type="text" name="username" title="username" required>
+            <button type="submit">Next</button>
+        </form>
+
+        <form id="buddy_form">
+            <label for="buddy">Chose a support buddy</label>
+            <div class="buddy-group">
+                <div class="pfp">
+                    <label> 
+                    <img src="/images/pfp1.png" width="100rem" alt="Profile picture">
+                        <input type="radio" name="buddy_options" value="Saalim" class="pfp_option" required> Saalim
+                    </label>
+                </div>
+                <div class="pfp">
+                    <label>
+                        <img src="/images/pfp2.png" width="100rem" alt="Profile picture">
+                        <input type="radio" name="buddy_options" value="Aishah" class="pfp_option"> Aishah
+                    </label>
+                </div>
+                <div class="pfp">
+                    <label>
+                        <img src="/images/pfp3.png" width="100rem" alt="Profile picture">
+                        <input type="radio" name="buddy_options" value="Abdullah" class="pfp_option"> Abdullah
+                    </label>
+                </div>
+                <div class="pfp">
+                    <label>
+                        <img src="/images/pfp4.png" width="100rem" alt="Profile picture">
+                        <input type="radio" name="buddy_options" value="Ahmad" class="pfp_option"> Ahmad
+                    </label>
+                </div>
+                <div class="pfp">
+                    <label>
+                        <img src="/images/pfp5.png" width="100rem" alt="Profile picture">
+                        <input type="radio" name="buddy_options" value="Foden" class="pfp_option"> Foden
+                    </label>
+                </div>
+                <div class="pfp">
+                    <label>
+                        <img src="/images/pfp6.png" width="100rem" alt="Profile picture">
+                        <input type="radio" name="buddy_options" value="Sahlah" class="pfp_option"> Sahlah
+                    </label>
+                </div>
+
+            </div>
+            <button type="submit">Continue to Chat</button>
+        </form>
+    </main>
+
 </body>
 </html>
